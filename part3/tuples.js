@@ -1,7 +1,8 @@
-var skill = [1, 'dev'];
-var skill2 = [2, 'ops'];
-var id = skill2[0];
-var skillName = skill2[1];
-var arr = [1, 'dep', true, false];
-var skill3 = [3, 'front'];
-var skill4 = ['end', 'back'];
+"use strict";
+const skill = [1, 'dev'];
+const skill2 = [2, 'ops'];
+const id = skill2[0];
+const skillName = skill2[1];
+const arr = [1, 'dep', true, false];
+const skill3 = [3, 'front'];
+const skill4 = ['end', 'back'];

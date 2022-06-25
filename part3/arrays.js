@@ -1,10 +1,10 @@
-var skills = ['dev', 'devops', 'testing', 'front'];
-for (var _i = 0, skills_1 = skills; _i < skills_1.length; _i++) {
-    var skill = skills_1[_i];
+"use strict";
+const skills = ['dev', 'devops', 'testing', 'front'];
+for (const skill of skills) {
     console.log(skill.toLowerCase());
 }
-var res = skills
-    .filter(function (s) { return s !== 'dev'; })
-    .map(function (s) { return s + '! '; })
-    .reduce(function (a, b) { return a + b; });
+const res = skills
+    .filter(s => s !== 'dev')
+    .map(s => s + '! ')
+    .reduce((a, b) => a + b);
 console.log(res);

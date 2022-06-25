@@ -1,10 +1,11 @@
+"use strict";
 var StatusCode;
 (function (StatusCode) {
     StatusCode[StatusCode["SUCCESS"] = 200] = "SUCCESS";
     StatusCode[StatusCode["IN_PROGRESS"] = 205] = "IN_PROGRESS";
     StatusCode[StatusCode["FAILED"] = 400] = "FAILED";
 })(StatusCode || (StatusCode = {}));
-var response = {
+const response = {
     message: 'Payment succeed',
     statusCode: StatusCode.SUCCESS
 };
