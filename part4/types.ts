@@ -1,17 +1,17 @@
-type User = {
+type UserType = {
     name: string,
     age: number,
     skills: string[]
 }
 
-type Role = {
+type RoleType = {
     name: string,
     id: number
 }
 
 type UserWithRole = {
-    user: User,
-    role: Role
+    user: UserType,
+    role: RoleType
 }
 
 let user: UserWithRole = {
