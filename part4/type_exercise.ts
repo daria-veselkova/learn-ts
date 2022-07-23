@@ -29,3 +29,22 @@ interface IResponseFailed {
     paymentStatus: PaymentStatus.FAILED,
     data: IDataFailed
 }
+
+type typeGuard = (response: IResponseSucces | IResponseFailed) => number;
+
+type Resp = IResponseSucces | IResponseFailed;
+
+function isSuccess(response: Resp): response is IResponseSucces {
+    if (response.paymentStatus === PaymentStatus.SUCCESS) {
+        return true;
+    }
+    return false;
+}
+
+function getIdFromData(response: Resp): number {
+    if (isSuccess(response)) {
+        return response.data.databaseId;
+    } else {
+        throw new Error(response.data.errorMessage);
+    }
+}
