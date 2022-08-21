@@ -1,0 +1,1 @@
+{"version":3,"file":"overload.d.ts","sourceRoot":"","sources":["../../part5/overload.ts"],"names":[],"mappings":"AAAA,cAAM,OAAO;IACT,MAAM,EAAE,MAAM,EAAE,CAAM;gBAEV,MAAM,EAAE,MAAM,EAAE;IAI5B,QAAQ,CAAC,KAAK,EAAE,MAAM,GAAG,IAAI;IAC7B,QAAQ,CAAC,KAAK,EAAE,MAAM,EAAE,GAAG,IAAI;CAQlC"}

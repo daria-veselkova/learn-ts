@@ -1,0 +1,1 @@
+{"version":3,"file":"exercise_abs_class.d.ts","sourceRoot":"","sources":["../../part5/exercise_abs_class.ts"],"names":[],"mappings":"AAAA,uBAAe,MAAM;IACjB,QAAQ,CAAC,GAAG,CAAC,OAAO,EAAE,MAAM,GAAG,IAAI;IAEnC,SAAS,CAAC,IAAI,EAAE,IAAI;CAGvB;AAGD,cAAM,YAAa,SAAQ,MAAM;IAC7B,GAAG,CAAC,OAAO,EAAE,MAAM;IAInB,WAAW,CAAC,OAAO,EAAE,MAAM;CAI9B;AAED,QAAA,MAAM,MAAM,cAAqB,CAAC"}

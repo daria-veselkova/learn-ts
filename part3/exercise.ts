@@ -16,14 +16,14 @@ interface responseType {
     tags: string[],
     likes: number,
     status: questionStatus
-}[]
+}
 
 const request: requestType = {
     topicId: 5,
     status: questionStatus.PUBLISHED
 };
 
-const resp: responseType = [
+const resp: responseType =
     {
         question: "Как осуществляется доставка?",
         answer: "Быстро!",
@@ -34,7 +34,6 @@ const resp: responseType = [
         likes: 3,
         status: questionStatus.PUBLISHED
     }
-]
 
 async function getFaqs(req: requestType): Promise<responseType> {
     const res = await fetch('/faqs', {
